@@ -62,6 +62,10 @@
 {
     NSLog(@"nihao");
 }
+-(void)ddd
+{
+    NSLog(@"dfdf");
+}
 
 
 - (void)didReceiveMemoryWarning {
