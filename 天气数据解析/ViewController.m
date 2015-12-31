@@ -49,6 +49,8 @@
     
     [manager GET:url  parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"JSON =====%@",responseObject);
+        NSLog(@"JSON =====%@",responseObject);
+        NSLog(@"JSON =====%@",responseObject);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"error == ===%@",error);
     }];
